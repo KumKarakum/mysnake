@@ -12,7 +12,8 @@ namespace Snake
         public int y;
         public char sym;
 
-        public Point() {
+        public Point()
+        {
 
         }
 
@@ -21,9 +22,7 @@ namespace Snake
             x = _x;
             y = _y;
             sym = _sym;
-
         }
-
         
         public void Draw()
         {
